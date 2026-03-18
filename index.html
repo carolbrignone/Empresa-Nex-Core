@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexCore | Soluciones de Software</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">Nex<span>Core</span></a>
+      <nav class="nav-links">
+        <a href="#servicios">Servicios</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto" class="btn-nav">Contacto</a>
+      </nav>
+      <button class="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg-grid"></div>
+    <div class="container hero-inner">
+      <div class="hero-badge">Software & Tecnología Empresarial</div>
+      <h1 class="hero-title">
+        Construimos el<br />
+        <span class="accent">futuro digital</span><br />
+        de tu empresa.
+      </h1>
+      <p class="hero-sub">
+        Desarrollamos soluciones de software a medida, escalables y seguras
+        para organizaciones que buscan liderar en un entorno competitivo.
+      </p>
+      <div class="hero-cta">
+        <a href="#servicios" class="btn-primary">Ver servicios</a>
+        <a href="#contacto" class="btn-ghost">Hablar con un experto →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">+150</span>
+          <span class="stat-label">Proyectos entregados</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">98%</span>
+          <span class="stat-label">Satisfacción del cliente</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">12+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="code-card">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-file">nexcore.config.ts</span>
+        </div>
+        <pre class="code-body"><code><span class="c-kw">const</span> <span class="c-fn">nexcore</span> = {
+  <span class="c-key">mission</span>: <span class="c-str">"Transform businesses"</span>,
+  <span class="c-key">stack</span>: [<span class="c-str">"Cloud"</span>, <span class="c-str">"AI"</span>, <span class="c-str">"Security"</span>],
+  <span class="c-key">clients</span>: <span class="c-num">150</span><span class="c-op">+</span>,
+  <span class="c-key">uptime</span>: <span class="c-str">"99.9%"</span>
+};</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestros Servicios</span>
+        <h2 class="section-title">Soluciones diseñadas<br />para escalar contigo</h2>
+        <p class="section-sub">Cubrimos todo el ciclo de vida del software, desde la estrategia hasta el soporte continuo.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card featured">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0H3"/></svg>
+          </div>
+          <h3>Desarrollo de Software a Medida</h3>
+          <p>Aplicaciones web y móviles construidas desde cero según los requerimientos específicos de tu negocio, con arquitecturas robustas y mantenibles.</p>
+          <a href="#contacto" class="service-link">Más información →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z"/></svg>
+          </div>
+          <h3>Infraestructura Cloud</h3>
+          <p>Diseño, migración y gestión de infraestructura en AWS, Azure y GCP con foco en disponibilidad, seguridad y optimización de costos.</p>
+          <a href="#contacto" class="service-link">Más información →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/></svg>
+          </div>
+          <h3>Ciberseguridad Empresarial</h3>
+          <p>Auditorías de seguridad, pentesting e implementación de políticas para proteger los activos digitales de tu organización.</p>
+          <a href="#contacto" class="service-link">Más información →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"/></svg>
+          </div>
+          <h3>Analítica e Inteligencia de Datos</h3>
+          <p>Plataformas de BI, pipelines de datos e integración de modelos de IA que convierten tus datos en decisiones estratégicas.</p>
+          <a href="#contacto" class="service-link">Más información →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7.5 21 3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5"/></svg>
+          </div>
+          <h3>Integración de Sistemas</h3>
+          <p>Conectamos tus plataformas ERP, CRM y herramientas internas mediante APIs y microservicios, eliminando silos de información.</p>
+          <a href="#contacto" class="service-link">Más información →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"/></svg>
+          </div>
+          <h3>Soporte y Mantenimiento</h3>
+          <p>Acompañamiento post-lanzamiento con SLAs definidos, monitoreo 24/7 y soporte técnico especializado.</p>
+          <a href="#contacto" class="service-link">Más información →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EQUIPO -->
+  <section class="equipo" id="equipo">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Nuestro Equipo</span>
+        <h2 class="section-title">Expertos comprometidos<br />con tu éxito</h2>
+        <p class="section-sub">Un equipo multidisciplinario con experiencia en proyectos de escala internacional.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar" style="background: linear-gradient(135deg, #1a1f35, #2d3561);">
+            <span>MR</span>
+          </div>
+          <div class="team-info">
+            <h4>Martín Rodríguez</h4>
+            <span class="team-role">CEO & Co-founder</span>
+            <p>15 años liderando equipos de tecnología en empresas Fortune 500. Especialista en transformación digital y estrategia de producto.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" style="background: linear-gradient(135deg, #0d2137, #1a4a6b);">
+            <span>LG</span>
+          </div>
+          <div class="team-info">
+            <h4>Laura González</h4>
+            <span class="team-role">CTO & Co-founder</span>
+            <p>Arquitecta de software con experiencia en sistemas distribuidos, cloud-native y liderazgo de equipos de ingeniería de alto rendimiento.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" style="background: linear-gradient(135deg, #1a2d1a, #2a5c2a);">
+            <span>AS</span>
+          </div>
+          <div class="team-info">
+            <h4>Andrés Salazar</h4>
+            <span class="team-role">Head of Cybersecurity</span>
+            <p>Certified Ethical Hacker con más de 10 años en seguridad ofensiva y defensiva para sectores financiero y gubernamental.</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" style="background: linear-gradient(135deg, #2d1a35, #5c2a6b);">
+            <span>VM</span>
+          </div>
+          <div class="team-info">
+            <h4>Valentina Méndez</h4>
+            <span class="team-role">Lead Data Scientist</span>
+            <p>PhD en Ciencias de Datos. Desarrolla modelos de machine learning aplicados a industrias como retail, salud y logística.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / CONTACTO -->
+  <footer class="footer" id="contacto">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="#" class="logo footer-logo">Nex<span>Core</span></a>
+        <p>Transformamos negocios a través de tecnología de vanguardia. Sede en Buenos Aires, con presencia en toda Latinoamérica.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="GitHub">gh</a>
+          <a href="#" aria-label="Twitter">tw</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h5>Empresa</h5>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#equipo">Equipo</a>
+      </div>
+      <div class="footer-contact">
+        <h5>Contacto</h5>
+        <p>contacto@nexcore.com.ar</p>
+        <p>+54 11 4000-0000</p>
+        <p>Av. Corrientes 1234, CABA</p>
+        <a href="mailto:contacto@nexcore.com.ar" class="btn-primary footer-btn">Escribinos →</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 NexCore. Todos los derechos reservados.</span>
+      </div>
+    </div>
+  </footer>
+  Perfecto, te paso los dos juntos. Son cambios en ambos archivos.
+
+📄 index.html — pegá esto justo antes del botón de WhatsApp
+html  <!-- TESTIMONIOS -->
+  <section class="testimonios" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonios</span>
+        <h2 class="section-title">Lo que dicen<br />nuestros clientes</h2>
+        <p class="section-sub">Empresas que confiaron en nosotros y transformaron su negocio.</p>
+      </div>
+      <div class="testi-grid">
+
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"NexCore transformó completamente nuestra infraestructura. Pasamos de caídas semanales a un uptime del 99.9%. El equipo es extraordinariamente profesional."</p>
+          <div class="testi-autor">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #1a1f35, #2d3561);">JP</div>
+            <div>
+              <strong>Jorge Paredes</strong>
+              <span>CTO — Banco Regional S.A.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card featured">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Implementaron nuestro sistema de gestión en tiempo récord. La comunicación fue impecable durante todo el proyecto y el resultado superó nuestras expectativas."</p>
+          <div class="testi-autor">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #0d2137, #1a4a6b);">SM</div>
+            <div>
+              <strong>Sofía Martínez</strong>
+              <span>CEO — LogiTech Argentina</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"El equipo de ciberseguridad detectó vulnerabilidades críticas que otros habían pasado por alto. Hoy operamos con total tranquilidad gracias a NexCore."</p>
+          <div class="testi-autor">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #1a2d1a, #2a5c2a);">RC</div>
+            <div>
+              <strong>Ricardo Castillo</strong>
+              <span>Director IT — Grupo Salud Norte</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Preguntas Frecuentes</span>
+        <h2 class="section-title">Todo lo que necesitás<br />saber antes de empezar</h2>
+        <p class="section-sub">Respondemos las dudas más comunes de nuestros clientes.</p>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-pregunta">
+            ¿Cuánto tiempo tarda un proyecto de software a medida?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Depende de la complejidad. Un MVP puede estar listo en 6 a 10 semanas. Proyectos más grandes con integraciones complejas suelen tomar entre 3 y 6 meses. En la primera reunión te damos un estimado detallado sin cargo.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-pregunta">
+            ¿Trabajan con empresas de cualquier tamaño?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Sí. Trabajamos desde startups que necesitan su primer producto digital hasta corporaciones que buscan modernizar sistemas legacy. Adaptamos nuestro enfoque y presupuesto a cada caso.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-pregunta">
+            ¿Qué pasa después de que el proyecto se lanza?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Ofrecemos planes de soporte y mantenimiento con SLAs definidos. Incluyen monitoreo 24/7, actualizaciones de seguridad, corrección de bugs y soporte técnico por parte del mismo equipo que desarrolló tu solución.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-pregunta">
+            ¿Cómo es el proceso para arrancar un proyecto?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Primero agendamos una reunión de diagnóstico gratuita. Luego preparamos una propuesta técnica y comercial. Una vez aprobada, arrancamos con un sprint de discovery para definir arquitectura, alcance y roadmap antes de escribir la primera línea de código.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-pregunta">
+            ¿Trabajan con tecnologías específicas o son agnósticos?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-respuesta">
+            <p>Somos agnósticos en cuanto a tecnología. Elegimos el stack más adecuado para cada problema: React, Vue, Node.js, Python, .NET, AWS, Azure, GCP, entre otros. Si ya tenés un stack definido, nos adaptamos a él.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- BOTÓN WHATSAPP -->
+  <a href="https://wa.me/5491140000000" target="_blank" class="whatsapp-btn" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.528 5.855L.057 23.943l6.244-1.635A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.886 9.886 0 0 1-5.031-1.378l-.361-.214-3.741.981.998-3.648-.235-.374A9.861 9.861 0 0 1 2.106 12C2.106 6.533 6.533 2.106 12 2.106c5.468 0 9.894 4.427 9.894 9.894 0 5.468-4.426 9.894-9.894 9.894z"/>
+    </svg>
+    <span class="whatsapp-tooltip">¡Escribinos!</span>
+  </a>
+
+
+  <script>
+    // ---- SCROLL REVEAL ----
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.service-card, .team-card, .section-header').forEach(el => {
+      el.classList.add('fade-up');
+      observer.observe(el);
+    });
+
+    // ---- HAMBURGER ----
+    const ham = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav-links');
+    ham.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      ham.classList.toggle('active');
+    });
+
+    // ---- NAVBAR SCROLL ----
+    window.addEventListener('scroll', () => {
+      document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // ---- PARTÍCULAS FLOTANTES ----
+    const canvas = document.createElement('canvas');
+    canvas.id = 'particles';
+    canvas.style.cssText = `
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 1;
+      pointer-events: none;
+    `;
+    document.querySelector('.hero').appendChild(canvas);
+
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    let W, H;
+
+    function resize() {
+      W = canvas.width  = canvas.offsetWidth;
+      H = canvas.height = canvas.offsetHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    class Particle {
+      constructor() { this.reset(); }
+      reset() {
+        this.x    = Math.random() * W;
+        this.y    = Math.random() * H;
+        this.r    = Math.random() * 1.8 + 0.4;
+        this.speedX = (Math.random() - 0.5) * 0.4;
+        this.speedY = (Math.random() - 0.5) * 0.4;
+        this.alpha = Math.random() * 0.5 + 0.1;
+        this.hue  = Math.random() < 0.7 ? 195 : 210;
+      }
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+        if (this.x < -10 || this.x > W + 10 || this.y < -10 || this.y > H + 10) this.reset();
+      }
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+        ctx.fillStyle = `hsla(${this.hue}, 100%, 65%, ${this.alpha})`;
+        ctx.fill();
+      }
+    }
+
+    for (let i = 0; i < 120; i++) particles.push(new Particle());
+
+    function drawConnections() {
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 100) {
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.strokeStyle = `rgba(0, 212, 255, ${0.12 * (1 - dist / 100)})`;
+            ctx.lineWidth = 0.6;
+            ctx.stroke();
+          }
+        }
+      }
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, W, H);
+      drawConnections();
+      particles.forEach(p => { p.update(); p.draw(); });
+      requestAnimationFrame(animate);
+    }
+    animate();
+  </script>
+
+</body>
+</html>
